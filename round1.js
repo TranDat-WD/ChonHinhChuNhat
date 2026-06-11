@@ -186,7 +186,7 @@ class check {
 const shapes = [];
 const checks = [];
 const texture = new Image();
-texture.src = "../src/img/round1/wood.png";
+texture.src = "src/img/round1/wood.png";
 
 texture.onload = () => {
   gameLoop();
