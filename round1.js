@@ -344,7 +344,7 @@ headerBtn.addEventListener("click", () => {
 });
 
 canvas.addEventListener("mousedown", (event) => {
-  for (let i in shapes) {
+  for (let i = shapes.length - 1; i >= 0; i--) {
     if (checkSelected(shapes[i]) == true) {
       if (shapes[i] instanceof hinhChuNhat) {
         currentScore += 10;
