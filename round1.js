@@ -10,6 +10,8 @@ const score = document.getElementById("score");
 
 // Class
 
+ctx.lineWidth = 2.5;
+
 class hinhChuNhat {
   constructor(x, sizeX, sizeY) {
     this.x = x;
